@@ -1,0 +1,130 @@
+video {
+    border-radius: 40px;
+}
+
+.video-text {
+    font-weight: bold;
+    position: absolute;
+    top: 400px;
+    left: 84px;
+    border: 3px dashed black;
+    background-color: #fbe407;
+    padding: 10px 15px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.info-button {
+    position: relative;
+    top: 24px;
+    left: 15px;
+}
+
+.info-button,
+.upload-icon,
+.make-photo-icon,
+.add-photo-icon {
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #fbe407;
+    border-radius: 50%;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.info-button {
+    height: 30px;
+    width: 30px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-button img {
+    height: 30px;
+    width: 30px;
+    padding: 0 2px;
+}
+
+.upload-icon {
+    height: 28px;
+    width: 28px;
+    padding: 10px 10px;
+    position: relative;
+    top: -30px;
+    right: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-icon img {
+    height: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.make-photo-icon {
+    height: 50px;
+    width: 50px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-photo-icon {
+    height: 30px;
+    width: 30px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.make-photo-icon img {
+    height: 50px;
+}
+
+.add-photo-icon img {
+    height: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.buttons-wrapper div {
+    margin: 0 20px 20px 20px;
+}
+
+.photos-counter {
+    color: #fbe407;
+}
+
+.make-photo-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.info-button {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 450px) {
+    .buttons-wrapper div {
+        margin: 0 8px 8px 8px;
+    }
+}
